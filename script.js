@@ -13,8 +13,11 @@ function generator() {
 
 function create_element(joke) {
     let obj = document.createElement('p')
+    let parent = document.querySelector('.joke')
+
     obj.innerText = joke
-    document.querySelector('.joke').appendChild(obj)
+    parent.appendChild(obj)
+    parent.style.opacity = 1
 }
 
 

@@ -24,6 +24,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition-duration: 1.5s;
 }
 
 p {
@@ -32,6 +34,3 @@ p {
     text-align: center;
     font-style: italic;
 }
-
-
-
