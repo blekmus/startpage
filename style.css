@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    background-color: #0e1419;
+    background-color: #161b22;
     height: 100vh;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 p {
-    color: #868246;
+    color: #c1ba4b;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     font-style: italic;
